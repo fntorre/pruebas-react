@@ -7,8 +7,9 @@ export default function Characters({characters = []}) {
         {characters.map((item, index) => (
           <li className="box" key={item.id}>
             <img src={item.image}/>
-            <h4>{item.name}</h4>
-            <p>{item.species} / {item.status}</p>
+            <h2>{item.name}</h2>
+            <p><b>{item.species} / {item.status}</b></p>
+            <p>{item.gender} </p>
           </li>
         ))}
       </ul>

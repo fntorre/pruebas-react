@@ -10,7 +10,7 @@ export function RM() {
     fetch(url)
       .then((response) => response.json())
       .then((data) => setPersonajes(data.results))
-      .catch((error) => console.log(error));
+      .catch((error) => console.log(error))
       console.log(personajes)
   };
 
