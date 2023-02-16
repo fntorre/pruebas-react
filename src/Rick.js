@@ -19,6 +19,9 @@ export function RM() {
   }, []);
 
   return <>
+  <input>Buscar</input>
   <Characters characters={personajes} />
   </>;
 }
+
+export default RM

@@ -36,7 +36,7 @@ export const todos = [
 
   {
     id: 104,
-    name: "Valeria",
+    name: null,
     ape: "Duarte",
     age: 35,
     image:

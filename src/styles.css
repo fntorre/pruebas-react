@@ -1,0 +1,50 @@
+.menu, .submenu  {
+    list-style: none;
+}
+
+ul.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.submenu li {
+    display: none;
+}
+
+.menu a li.primer:hover ~ .submenu li{
+    display: block;
+}
+
+.menu a li:hover{
+background-color: aquamarine;}
+
+.cartProduct img {
+    width: 300px;
+}
+
+.cartProduct {
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid;
+}
+
+img.brand {
+    width: 60px;
+}
+
+.cartProduct button {
+    background-color: black;
+    margin: 2px;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 20px;
+    padding: 3px 15px;
+    cursor: pointer;
+}
+
+.cuotas {
+    display: block;
+    padding: 5px;
+    margin: 20px auto;
+}
