@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Ubuntu&display=swap');
+
+body {
+    background: url("./img/bg.jpg");
+    font-family: 'Ubuntu', sans-serif;
+    background-size: cover;
+}
+
+.App {
+    width: 850px;
+    margin: 25px auto;
+    background-color: #00000030;
+    padding: 25px;
+}
+
+.toDoList {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 0;
+}
+
+.toDoList li {
+    padding: 22px;
+}
+
+li.tarea.tarea-pendiente {
+    background-color: beige;
+}
+
+li.tarea.tarea-en-progreso {
+    background-color: aliceblue;
+}
+
+.estado {
+    background-color: #0000000f;
+    display: inline-block;
+    padding: 2px 10px 7px;
+    font-size: 0.8em;
+    text-transform: capitalize;
+    border-radius: 25px;
+}
+
+.nombre, .descripcion {
+    margin-bottom: 12px;
+}
+
+.categoria {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+li.tarea.tarea-resuelta {
+    border: 1px solid;
+    color: green;
+    opacity: 0.5;
+}
+
+form.formulario {
+    background-color: black;
+    padding: 20px;
+}
+
+form.formulario input, form.formulario textarea {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-family: inherit;
+    font-size: 13px;
+}
+
+button {
+    padding: 3px 20px;
+    background-color: black;
+    border: white solid 1px;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
